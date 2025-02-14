@@ -4,4 +4,4 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=DakshPrajapati-X&repo=voicenoteapp&theme=dark)](https://github.com/DakshPrajapati-X/voicenoteapp)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DakshPrajapati-X&layout=donut&exclude_repo=potholedetection,DakshPrajapati-X.github.io&theme=dark&langs_count=8)
 ## Live Demo 🚀  
-[Click here to view the project]([https://your-live-project-link.com](https://unrivaled-pavlova-cc3eff.netlify.app/))
+[Click here to view the project](https://unrivaled-pavlova-cc3eff.netlify.app/)
