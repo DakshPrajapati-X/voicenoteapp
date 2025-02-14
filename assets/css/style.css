@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Moric&display=swap');
+
+body {
+  background-color: #f8f6f6; /* Replace with your desired background color */
+  /* For background image */
+  background-image: url('../image/00.jpg');
+  /* Other background properties */
+  background-size: 100%; /* Adjust the percentage to zoom the image */
+  background-repeat: no-repeat; 
+  background-position: 50% 13%; /* Adjust the first value to move right/left and the second value to move up/down */
+  background-attachment: scroll; /* Make the background scroll with the content */
+  height: 100vh;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+    font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+ /* Apply Moric font to the body */
+}
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+ /* Apply Moric font to lists */
+}
+
+p {
+  color: #eff3f6;
+  font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+ /* Apply Moric font to paragraphs */
+}
+
+#language-select {
+  background-color: #FEFDFD; /* Replace #ff0000 with your desired color */
+  color: #110b0b; /* Change text color to contrast with the background */
+  border: none; /* Remove button border if desired */
+  /* Add any other styling properties as needed */
+  font-family: "Righteous", sans-serif;
+  font-weight:400;
+  font-style: normal;
+ /* Apply Moric font to select */
+}
+
+.input-group-prepend label {
+  background-color: #F7838C; /* Replace #ffcc00 with your desired background color */
+  color: #ffffff; /* Set text color for contrast */
+  padding: 10px; /* Add padding for better appearance */
+  font-family: "Righteous", sans-serif;
+  font-weight:400;
+  font-style: normal;
+ /* Apply Moric font to labels */
+}
+
+.col-md-6.align-center h3 {
+  color: #FEFDFD;/* Replace #ff0000 with your desired color */
+  font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+ /* Apply Moric font to headers */
+}
+
+/* CSS to change the color of the textarea */
+#note-textarea {
+  background-color:#731FCF; /* Replace #f0f0f0 with your desired background color */
+  color: #fcfcfc; /* Replace #333 with your desired text color */
+  border: 1px solid #731FCF; /* Replace #ccc with your desired border color */
+  /* Add any other styling properties as needed */
+  font-family: "Righteous", sans-serif;
+  font-weight:400;
+  font-style: normal;
+ /* Apply Moric font to textarea */
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border: none;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-weight:400;
+  font-style: normal;
+ /* Apply Moric font to buttons */
+}
+
+button:focus {
+  outline: 0;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-weight:400;
+  font-style: normal;
+ /* Apply Moric font to buttons */
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  text-align: center;
+    font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+ /* Apply Moric font to container */
+}
+
+.container h1 {
+  margin-bottom: 20px;
+    font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+ /* Apply Moric font to container headers */
+}
+
+.page-description {
+  margin: 0 auto;
+  font-size: 32px;
+  position: absolute; /* Use absolute positioning */
+  top: 18.5%; /* Vertically center the element */
+  left: 50%; /* Horizontally center the element */
+  transform: translate(-50%, -50%); /* Move the element back by 50% of its height and width to truly center it */
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 550;
+  font-style: normal
+}
+
+.tz-link {
+  font-size: 1em;
+  color: #4f4178;
+  text-decoration: none;
+    font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+ /* Apply Moric font to links */
+}
+
+.no-browser-support {
+  display: none;
+  font-size: 1.2rem;
+  color: #39110a;
+  margin-top: 35px;
+    font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+ /* Apply Moric font to no-browser-support */
+}
+
+.app {
+  margin: 40px auto;
+    font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+ /* Apply Moric font to app */
+}
+
+#note-textarea {
+  margin: 20px 0;
+  width: 80%;
+  color:#FEFDFD;
+  top: 10%; /* Vertically center the element */
+  left: 50%; 
+    font-family: "Righteous", sans-serif;
+  font-weight:400;
+  font-style: normal;
+ /* Apply Moric font to note textarea */
+}
+
+#recording-instructions {
+  margin: 15px auto 60px;
+  color: #FEFDFD;
+    font-family: "Righteous", sans-serif;
+  font-weight:400;
+  font-style: normal;
+ /* Apply Moric font to recording instructions */
+}
+
+#notes {
+  padding-top: 20px;
+    font-family: "Righteous", sans-serif;
+  font-weight:400;
+  font-style: normal;
+ /* Apply Moric font to notes */
+}
+
+.note .header {
+  font-size: 0.9em;
+  color: #3d2742;
+  margin-bottom: 10px;
+    font-family: "Righteous", sans-serif;
+  font-weight:700;
+  font-style: normal;
+ /* Apply Moric font to note headers */
+}
+
+.note .delete-note,
+.note .listen-note {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #000000;
+    font-family: "Righteous", sans-serif;
+  font-weight:400;
+  font-style: normal;
+ /* Apply Moric font to note actions */
+}
+
+.note .content {
+  margin-bottom: 30px;
+    font-family: "Righteous", sans-serif;
+  font-weight:400;
+  font-style: normal;
+ /* Apply Moric font to note content */
+}
+
+.align-center img {
+  padding-top: 10px;
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* This maintains the aspect ratio */
+  max-width: 200px; /* Maximum width of the image */
+  margin: 0 auto; /* Center the image */
+  display: block; /* Center the image inside the container */
+}
+
+.img-custom {
+  width: 150px; /* Set the width you want */
+  height: auto; /* Maintain the aspect ratio */
+  margin: 20px auto; /* Center the image with some margin */
+  display: block; /* Ensure the image is centered */
+  padding: 10px; /* Add padding if needed */
+}
+
+.img-custom-position {
+  position: relative; /* or absolute */
+  top: 20px; /* Adjust top position */
+  left: 10px; /* Adjust left position */
+  /* You can also use right and bottom properties */
+}
+
+/* Media query to adjust the image on smaller screens */
+@media (max-width: 768px) {
+  .align-center img {
+    width: 80%; /* Adjust width for smaller screens */
+    max-width: 150px; /* Maximum width for smaller screens */
+  }
+}
+
+.align-center {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 50px 25px;
+  }
+  button {
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    width: 80%;
+  }
+}
+
+/* CSS to change the color of the buttons */
+/* Custom CSS to change the button colors */
+/* CSS to change the color of the buttons */
+/* Custom CSS to change the button colors */
+/* style.css */
+#start-record-btn {
+    padding: 10px 24px; /* Adjust padding as needed */
+    background-color: #FEFDFD;
+    border: 1px solid #141211;
+    border-radius: 35px;
+    font-family:"Ubuntu Sans Mono", monospace;
+    color: #141211;
+    font-size: 20px;
+    text-decoration:none;
+    box-shadow: 0 0 0;
+    background-image: url('assets/img/🌷pink tulips means caring and good wishes.jpeg');
+    background-size: cover; /* Adjust as per your image dimensions */
+    background-repeat: no-repeat;
+}
+
+#pause-record-btn {
+    padding: 10px 24px; /* Adjust padding as needed */
+    background-color: #FEFDFD;
+    border: 1px solid #141211;
+    border-radius: 35px;
+    font-family:"Ubuntu Sans Mono", monospace;
+    color: #141211;
+    font-size: 20px;
+    text-decoration:none;
+    box-shadow: 0 0 0;
+    background-image: url('assets/img/Tales from Earthsea by Papilio.jpeg');
+    background-size: cover; /* Adjust as per your image dimensions */
+    background-repeat: no-repeat;
+}
+
+#save-note-btn {
+    padding: 10px 24px; /* Adjust padding as needed */
+    background-color: #FEFDFD;
+    border: 1px solid #141211;
+    border-radius: 35px;
+    font-family: "Ubuntu Sans Mono", monospace;
+    color: #141211;
+    font-size: 20px;
+    text-decoration:none;
+    box-shadow: 0 0 0;
+    background-image: url('assets/img/download (30).jpeg');
+    background-size: cover; /* Adjust as per your image dimensions */
+    background-repeat: no-repeat;
+}
+
+
+button {
+    margin-bottom: 22px;
+    padding: 12px 24px;
+}
+
+/* Hover styles for the buttons */
+button:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 1px #141211;
+}
+
+button:active {
+  transform: translateY(10px);
+  box-shadow: 0 0 0;
+}
+#start-record-btn.btn-success:hover,
+#pause-record-btn.btn-warning:hover,
+#save-note-btn.btn-info:hover {
+  opacity: 0.8; /* Decrease opacity on hover */
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 1px #0B12A8;
+}
+
+

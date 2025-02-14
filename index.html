@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <style>
+        .title {
+            color: #0B12A8;
+            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0;
+            padding: 20px 0;
+            text-align: center;
+            position: absolute;
+            top: 24%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: "Righteous", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        
+        body {
+            background-image: url('assets/image/full-frame-dark-blue-texture-background.jpg');
+            background-size: cover;
+            background-position: center left 40%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Moric', Arial, sans-serif;
+        }
+
+        .container-fluid {
+            position: relative;
+            min-height: 100vh;
+            font-family: 'Moric', Arial, sans-serif;
+        }
+        
+        .page-description,
+        .input-group-text,
+        .no-browser-support,
+        .app,
+        .input-single textarea,
+        button,
+        p,
+        h3 {
+            font-family: 'Moric', Arial, sans-serif;
+        }
+        
+        /* Add some styles for better visibility */
+        .btn {
+            cursor: pointer;
+        }
+
+        .btn:focus {
+            outline: 2px solid #000; /* Add visible focus outline */
+        }
+    </style>
+    <meta name="description" content="A Voice Note App that allows you to take voice and/or text notes and play them back.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid align-center">
+        <img src="assets/image/Screenshot(23).png" alt="Voice Note App Logo" class="img-custom">
+        <div class="title">Voice Note App</div>
+        <p class="page-description">This app allows you to take voice and/or text notes and play them back.</p>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="language-select">Language:</label>
+            </div>
+            <select id="language-select" aria-label="Select language">
+                <option value="hi-IN">Hindi</option>
+                <option value="gu-IN">Gujarati</option>
+                <option value="bn-IN">Bengali</option>
+                <option value="en-US">English</option>
+                <option value="ta-IN">Tamil</option>
+                <option value="te-IN">Telugu</option>
+                <option value="pa-IN">Punjabi</option>
+            </select>
+        </div>
+        <hr>
+        <h3 class="no-browser-support" style="display: none;" aria-live="polite">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
+        <div class="app">
+            <div class="row">
+                <div class="col-md-6 align-center">
+                    <h3>Add New Voice Note</h3>
+                    <div class="input-single">
+                        <textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition." rows="6" aria-label="Note content"></textarea>
+                    </div>
+                    <button id="start-record-btn" class="btn btn-success" title="Start Recording" aria-label="Start recording">Start Recognition</button>
+                    <button id="pause-record-btn" class="btn btn-warning" title="Pause Recording" aria-label="Pause recording">Pause Recognition</button>
+                    <button id="save-note-btn" class="btn btn-info" title="Save Note" aria-label="Save note">Save Note</button>
+                    <p id="recording-instructions" aria-live="polite">Press the <strong>Start Recognition</strong> button and allow access.</p>
+                </div>
+                <div class="col-md-6 align-center">
+                    <h3>My Voice Notes</h3>
+                    <ul id="notes" role="list">
+                        <li>
+                            <p class="no-notes" aria-live="polite">You don't have any notes yet.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="clearfix1">
+            <div class="container">
+                <div class="row">
+                    <div class="center">
+                        <p>Voice Note App 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
